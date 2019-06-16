@@ -1,8 +1,35 @@
 print('Bienvenidos a la aerolinea humanos')print('Bienvenidos a la aerolinea humanos')
+import numpy as np
 
-print(' iniciando segunda prueba de git')
+#variables
+#fil = 10
 
-'''SE pueden hacer hartas weas
-hay que ver si son utiles, por favor editen y 
-agregen mas cosas para ver como va funcionando el git'''
-print(' oe')
+
+aerolinea = np.empty(10, dtype="object")
+#def
+def inicializar(aerolinea):
+	contador = 0
+
+	for i in range (0,10):
+		aerolinea[i] = ""
+		contador+=1
+
+		print(f'{contador}')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
