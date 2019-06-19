@@ -1,5 +1,7 @@
-print('Bienvenidos a la aerolinea humanos')print('Bienvenidos a la aerolinea humanos')
 import numpy as np
+
+print('Bienvenidos a la aerolinea humanos')
+print('Bienvenidos a la aerolinea humanos')
 
 #variables
 #fil = 10
@@ -15,7 +17,7 @@ def inicializar(aerolinea):
 		contador+=1
 
 		print(f'{contador}')
-
+print ('esto es una prueba de guardado en github')
 
 
 
